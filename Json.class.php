@@ -12,7 +12,10 @@ class review_Json extends iJson {
         }
 
 
-
+        public public function bbb($value='')
+        {
+            # 增加一个方法
+        }
 
 
 
