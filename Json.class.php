@@ -12,19 +12,18 @@ class review_Json extends iJson {
         }
 
 
-<<<<<<< HEAD
+
         public public function bbb($value='')
         {
             # 增加一个方法
         }
 
-=======
 
         public public function ccc($value='')
         {
             # 增加一个方法
         }
->>>>>>> f4063139b32fef88ae716808d3cc5e5da7832e45
+
 
 
 
