@@ -13,7 +13,10 @@ class review_Json extends iJson {
 
 
 
-
+        public public function ccc($value='')
+        {
+            # 增加一个方法
+        }
 
 
 
