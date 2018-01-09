@@ -6,6 +6,19 @@
  */
 class review_Json extends iJson {
 
+        public public function aaa($value='')
+        {
+            # 增加一个方法
+        }
+
+
+
+
+
+
+
+
+
         public function __construct() {
                 $this->business = review_Business::instance();
         }
@@ -712,7 +725,7 @@ class review_Json extends iJson {
                     $bTemp = $this->business->editReviewDeclareByID($value['id'], $aProject);
                     if ($bTemp != 0) {
                         $bStatus = $bTemp && $bStatus;
-                    } 
+                    }
                 }
                 if ($bStatus) {
                     $aResult['success'] = true;
@@ -912,7 +925,7 @@ class review_Json extends iJson {
                         $aTemp['title'] = $v2['name'];
                         $aTemp['colspan'] = $aSecondIndex;
                         $aTemp['width'] = $aTemp['colspan']*100;
-                        $aSecond[] = $aTemp; 
+                        $aSecond[] = $aTemp;
                         $aFirstIndex += $aSecondIndex;
                     }
                 }
@@ -1878,7 +1891,7 @@ class review_Json extends iJson {
 #================================================================================#
 #==========================↑↑↑     评审公示管理     ↑↑↑==========================#
 #================================================================================#
- 
+
 
 #================================================================================#
 #==========================↓↓↓     结果报批管理     ↓↓↓==========================#
