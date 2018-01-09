@@ -8,7 +8,7 @@ class review_Json extends iJson {
 
         public public function aaa($value='')
         {
-            # 增加一个方法
+            echo "aaaaaaaaa"
         }
 
 
